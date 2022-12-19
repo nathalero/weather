@@ -12,7 +12,8 @@ root.render(
       <App />
       <div class="city" id="city-name"></div>
 
-      <h5>React App By <a href="https://www.linkedin.com/in/nathalero/"> Nathalie Lesmes Rodriguez</a></h5>
+      <h5>React App By <a href="https://www.linkedin.com/in/nathalero/" target={'_blank'}> Nathalie Lesmes Rodriguez</a></h5>
+      <h5>GitHub repository: <a href="https://github.com/nathalero/weather" target={'_blank'}>Weather React App</a></h5>
     </div>
     
   </React.StrictMode>
