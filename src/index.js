@@ -7,7 +7,14 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <div className="App">
+      <h1>Weather App React</h1>
+      <App />
+      <div class="city" id="city-name"></div>
+
+      <h5>React App By <a href="https://www.linkedin.com/in/nathalero/"> Nathalie Lesmes Rodriguez</a></h5>
+    </div>
+    
   </React.StrictMode>
 );
 
